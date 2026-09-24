@@ -38,7 +38,7 @@ python -m pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Debugging Explanation
+## How it works
 
 1. `create_database()` creates the SQLite database and `api_logs` table if they do not already exist.
 2. The Streamlit interface accepts an API URL and timeout value.
@@ -57,7 +57,7 @@ streamlit run app.py
 15. The logs are displayed in a table for debugging and monitoring.
 16. The Clear Logs button removes existing records and refreshes the dashboard.
 
-## Common Debugging Problems
+## Error Handling
 
 ### Connection error
 Check the URL and internet connection.
