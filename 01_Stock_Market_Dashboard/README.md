@@ -17,7 +17,7 @@ This project is a Streamlit dashboard that retrieves recent stock-market data th
 - Display raw market data in a table
 - Handle network, API, JSON, and data errors
 
-## Technologies
+## Technologies 
 
 - Python
 - Requests
