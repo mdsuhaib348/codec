@@ -39,7 +39,7 @@ streamlit run app.py
 
 The application uses Yahoo Finance's chart endpoint for educational purposes. It does not require an API key, but the endpoint is an unofficial data interface and availability can change.
 
-## Debugging Explanation
+## How it works 
 
 1. The program starts Streamlit and creates the dashboard interface.
 2. The user enters a stock symbol and selects a period.
@@ -59,7 +59,7 @@ The application uses Yahoo Finance's chart endpoint for educational purposes. It
 16. `ValueError` handles invalid JSON responses.
 17. The final exception handler prevents an unexpected error from crashing the interface without an explanation.
 
-## Common Debugging Problems
+## Error Handling
 
 ### `streamlit is not recognized`
 Run:
